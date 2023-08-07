@@ -5,8 +5,10 @@ const ObjectId = mongoose.Types.ObjectId;
 
 const DeckSchema = new Schema({
   title: String,
-  id: ObjectId,
-  date: Date,
+  /* date: {
+    type: Date,
+    default: Date.now,
+  }, */
 });
 
 const DeckModel = mongoose.model("Deck", DeckSchema);
