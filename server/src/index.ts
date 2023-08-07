@@ -1,13 +1,8 @@
-// import "dotenv/config";
-require("dotenv").config({
-  debug: true,
-  // path: "/server/src/.env",
-});
+import "dotenv/config";
 
 import express, { Request, Response } from "express";
 import mongoose from "mongoose";
 import Deck from "./models/Deck";
-import { env } from "process";
 
 const app = express();
 const PORT = 3000;
