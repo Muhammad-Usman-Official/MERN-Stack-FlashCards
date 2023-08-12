@@ -9,6 +9,7 @@ const DeckSchema = new Schema({
     type: String,
     minlength: [1, `Title is shorter than the minimum allowed characters!`],
   },
+  cards: [String],
   date: {
     type: Date,
     default: Date.now,
