@@ -4,4 +4,4 @@
 # Connecting to MongoDB database
 ## First create a .env file inside the server folder and make sure to add that file in the root directory e.g. /server/.env connect Now you have to paste your MongoDB connection string inside the .env file. Feel free to check the .env-sample file to get the idea.
 
-#Thanks for reading :)
+## Thanks for reading :)
